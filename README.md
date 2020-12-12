@@ -12,7 +12,7 @@ CCKS 2020：基于标题的大规模商品实体检索，任务为对于给定�
 
 团队成绩：评价方式采用准确率，最终成绩排名如下，DeepBlueAI 团队获得了本任务的冠军以及技术创新奖。
 
-图片
+![这里随便写文字](https://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gW8be5wAnGt2nkpcicQ38CyR7TVamJLg0D16DQbIL8VshH1ZU5ibZPR1V9UJXHiavYIHKjX573ZF2fdzw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 比赛难点：基于标题的大规模商品实体检索存在如下几点挑战：
 
