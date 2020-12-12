@@ -33,7 +33,7 @@ CCKS 2020：基于标题的大规模商品实体检索，任务为对于给定�
 {   
   "text_id": 81228,   "text": "四盒粉，宝宝痱子粉",   
   "implicit_entity": [{"subject": "硼酸氧化锌散", "subject_id": 23813}]
-  }
+ }
 
 知识库数据 27.7w 商品实体，其中药品类 4.4k 个和书籍类 27.3w 个，知识库商品实体包含实体类型、实体 ID、实体 predicate 和 object 项，具体格式如下：
 
@@ -69,15 +69,15 @@ CCKS 2020：基于标题的大规模商品实体检索，任务为对于给定�
 {"text_id": 105526, "text": "药品", "implicit_entity": [{"subject": "肿节风软胶囊", "subject_id": 53176}]}
 
 标题文本对应的两个实体都具有关系
-
+'''
 {"text_id": 134542, "text": "正品米菲司同片铜片", "implicit_entity": [{"subject": "米菲司酮片", "subject_id": 140181}]}
 {"text_id": 21246, "text": "正品米菲司同片铜片", "implicit_entity": [{"subject": "司米安米非司酮片", "subject_id": 134662}]}
-
+'''
 标题文本对应的两个实体一个为正确标注另一个为错误标注
-
+'''
 {"text_id": 132115, "text": "阿达帕林", "implicit_entity": [{"subject": "福牌阿胶阿胶片", "subject_id": 216530}]}
 {"text_id": 45692, "text": "阿达帕林", "implicit_entity": [{"subject": "维 A 酸乳膏", "subject_id": 230257}]}
-
+'''
 上述相同标题文本对应多个实体 ID 的情况会在最后的排序阶段影响模型的收敛，导致最后的性能下降，所以直接删除了这部分数据。
 
 相似实体
