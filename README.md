@@ -29,11 +29,13 @@ CCKS 2020：基于标题的大规模商品实体检索，任务为对于给定�
 三、数据处理
 
 数据分为 8.3w 训练集文本和包含 text_id，text，implicit_entity 等字段，具体格式如下：
-
+```markdown
 {   
   "text_id": 81228,   "text": "四盒粉，宝宝痱子粉",   
   "implicit_entity": [{"subject": "硼酸氧化锌散", "subject_id": 23813}]
  }
+```
+
 
 知识库数据 27.7w 商品实体，其中药品类 4.4k 个和书籍类 27.3w 个，知识库商品实体包含实体类型、实体 ID、实体 predicate 和 object 项，具体格式如下：
 """
