@@ -165,7 +165,7 @@ top10 -> top1 和 top100 -> top10 训练方式一样，负采样格式改成 2�
 采用上述方案，DeepBlueAI 团队在最终的测试集上达到了 88.489 的准确率，对比后几名有着很大的领先，证明了方案的有效性。
 
 上述模型采用 bert-base 版本，速度较慢，所以也在 bert-tiny（3 层的 roberta）上进行过实验，比 base 大概低 2 分左右，但是速度提升很快。在实际应用中可以尝试使用 bert-tiny，这样也能达到一个很好的效果。或者针对数据蒸馏出一个比 bert-tiny 效果更好的小模型，这也是一种可行的方案。
-
+```markdown
 参考文献
 [1] Devlin J, Chang M W, Lee K, et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[J]. 2018.
 [2] Huang, Po-Sen, et al. "Learning deep structured semantic models for web search using clickthrough data." Proceedings of the 22nd ACM international conference on Information & Knowledge Management. 2013.
@@ -174,3 +174,4 @@ top10 -> top1 和 top100 -> top10 训练方式一样，负采样格式改成 2�
 [5] Schroff, Florian, Dmitry Kalenichenko, and James Philbin. "Facenet: A unified embedding for face recognition and clustering." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
 [6] Sun, Yu, et al. "Ernie: Enhanced representation through knowledge integration." arXiv preprint arXiv:1904.09223 (2019).
 [7] Cui, Yiming, et al. "Revisiting Pre-Trained Models for Chinese Natural Language Processing." arXiv preprint arXiv:2004.13922 (2020).
+``````
